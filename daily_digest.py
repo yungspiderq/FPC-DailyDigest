@@ -51,12 +51,12 @@ from Utils import cardinal_tools
 logger = logging.getLogger("FPC.DailyDigest")
 
 # ══════════════════════════════ МЕТАДАННЫЕ ПЛАГИНА ══════════════════════════════
-NAME = "Утренний дайджест"
-VERSION = "1.0.0"
+NAME = "DailyDigest (Morning Shop Digest)"
+VERSION = "1.0.1"
 DESCRIPTION = ("Ежедневная сводка магазина в Telegram: продажи за вчера со сравнением, "
                "активные заказы, проблемные остатки товаров, баланс. Отправляется в заданное "
                "время или вручную. Команда: /digest")
-CREDITS = "Qwen (для FunPay Cardinal)"
+CREDITS = "yungspider"
 UUID = "fd7ec5f7-3100-4a86-a79d-0176a60dd4c6"
 SETTINGS_PAGE = True
 

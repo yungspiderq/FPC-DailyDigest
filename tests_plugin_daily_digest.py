@@ -291,7 +291,7 @@ def last_kb():
 
 
 name = dispatch_cb(f"47:{plugin.UUID}:0")
-check("4.2 страница настроек открывает меню", name == "open_home" and "Утренний дайджест" in last_text())
+check("4.2 страница настроек открывает меню", name == "open_home" and "DailyDigest" in last_text())
 check("4.3 в меню статус, время и последняя отправка",
       "Дайджест: <b>ВКЛ" in last_text() and "09:00" in last_text())
 
